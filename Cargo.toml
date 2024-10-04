@@ -7,6 +7,7 @@ license = "MIT"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+fs_extra = "1.3.0"
 inquire = { version = "0.7.5", features = ["date"] }
 rand = "0.8.5"
 serde = { version = "1.0.210", features = ["derive"] }
